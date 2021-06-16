@@ -1,16 +1,19 @@
 import React, {createRef} from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import TableComponent from "./Component/TableComponent";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Product from "./Page/Product";
 
 function App() {
     return (
         <div className="App container">
-            <div className='my-3 d-flex flex-row-reverse'>
-                <button className='btn btn-primary '>Tạo mới</button>
+            <div>
+
             </div>
-            <div className='my-3'>
-                <TableComponent/>
+            <div>
+                <Product/>
+            </div>
+            <div>
+
             </div>
         </div>
     );

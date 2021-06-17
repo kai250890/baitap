@@ -2,7 +2,11 @@ import React, {Component} from "react";
 import {Button,Modal,Form} from 'react-bootstrap';
 
 interface State {
-    setShow: boolean
+    setShow: boolean,
+    id?: number,
+    name?: string,
+    price?: number,
+    desc?: string
 }
 class FormComponent extends Component<any, State>{
     constructor(props: any) {
